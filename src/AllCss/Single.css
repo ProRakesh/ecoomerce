@@ -1,0 +1,214 @@
+
+
+
+.Model{
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: auto;
+    overflow: hidden;
+    display: none;
+    position: fixed;
+    top:10rem;
+    border: 2px solid #ddd;
+    box-shadow: 0px 10px 4px 9000px rgba(255, 255, 255, 1);
+    z-index: 1;
+
+   
+}
+.activemodel{
+    display: flex;
+    /* transition: all 0.5s ease-in; */
+
+    
+}
+
+
+.modelactive{
+    display: flex;
+}
+.modelimg{
+    padding: 20px 0px   ;
+    background-color: white;
+}
+.modelimg>img{
+    width: 500px;
+}
+
+
+.Modelclose{
+    position: absolute;
+    right: 0rem;
+    top: 0;
+    /* top: 2rem; */
+    font-size: 2rem;
+    background-color: rgb(5, 5, 5);
+    cursor: pointer;
+    color: white;
+    padding: 2px 4px;
+}
+.modeldetail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+justify-content: center;
+    text-align: left;
+    width: 60vw;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+   'Lucida Sans', Arial, sans-serif;
+font-weight: normal;
+
+}
+.modeldetail>*{
+    padding:  5px 15px;
+}
+.modeldetail>span:nth-child(1){
+    font-size: 2rem;
+    text-align:center;
+    font-weight: bold;
+
+}
+.modeldetail>span:nth-child(3){
+    padding: 0px!important;
+    text-align: center;
+
+}
+.storage>label{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+.modeldetail>button
+{
+    color: white;
+    margin: 1rem 0;
+}
+.modeldetail>button:hover{
+    background-color: teal;
+    transition: all 0.2s ease-out;
+}
+
+@media screen and (max-width:1470px) {
+    
+    .Model{
+        width: 80vw;
+        height: 50vh;
+    }
+   
+}
+
+@media screen and (max-width:1215px) {
+   
+    
+   
+    .modelimg>img{
+        width: 400px;
+    }
+}
+@media screen and (max-width:1215px) {
+   
+    
+   
+    .modelimg>img{
+        width: 300px;
+    }
+}
+@media screen and (max-width:992px) {
+   
+    .Model{
+        flex-direction: column;
+        width: 70vw;
+        height: 80vh;
+        text-align: center;
+        top:8rem;
+    }
+   
+    .modelimg>img{
+        width: 220px;
+    }
+    .modeldetail{
+        align-items: flex-start;
+        padding-left: 30px;
+    }
+}
+
+
+@media screen and (max-width:845px) {
+   
+    .Model{
+        flex-direction: column;
+        width: 70vw;
+        height: 90vh;
+        text-align: center;
+        top: 6rem;
+    }
+   
+    .modelimg>img{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:700px) {
+   
+    .Model{
+        width: 70vw;
+        height: auto;
+        top: 6rem;
+    }
+   
+    .modelimg>img{
+        width: 180px;
+    }
+    .modeldetail{
+        align-items: flex-start;
+        padding-left: 2px;
+    }
+  
+}
+@media screen and (max-width:460px) {
+   
+    .Model{
+       
+        width: 90vw;
+
+}
+   
+    .modelimg>img{
+        width: 150px;
+    }
+    .modeldetail{
+        padding-left: 25px;
+        padding-right: 2px;
+        white-space: none;
+        width: 100vw;
+    }
+  
+}
+@media screen and (max-width:335px) {
+   
+    .Model{
+        flex-direction: column;
+        width: 90vw;
+        top: 4.5rem;
+      
+        text-align: center;
+    }
+   
+    .modelimg>img{
+        width: 150px;
+    }
+    .modeldetail{
+        padding-left: 0px;
+        white-space: none;
+        width: 81vw;
+    }
+    .modeldetail>.cartbtn1{
+        font-size: 1rem;
+        padding: 0.4rem;
+        
+    }
+    .modeldetail>span:nth-child(1){
+        font-size: 1.5rem;
+    }
+  
+}

@@ -1,0 +1,38 @@
+.maincard{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 80px;
+    flex-wrap: wrap;
+    gap: 5rem;
+
+}
+.Latest{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 3.2rem;
+}
+
+
+@media screen and (max-width:680px) {
+    .Latest{
+        font-size: 2rem;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .Latest{
+        font-size: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .maincard{
+      flex-wrap: wrap;
+      gap: 1rem;
+      
+    }
+}

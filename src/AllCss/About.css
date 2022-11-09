@@ -1,0 +1,15 @@
+.about{
+    background-color: rgb(250, 250, 250);
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    text-align: center;
+}
+.herobtn>a{
+    color: white;
+    text-decoration: none;
+}
